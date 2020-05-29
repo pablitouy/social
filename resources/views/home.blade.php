@@ -42,7 +42,7 @@
                     <li class="media">
                       <img src="..." class="mr-3" alt="...">
                       <div class="media-body">
-                        <h5 class="mt-0 mb-1">List-based media object</h5>
+                        <h5 class="mt-0 mb-1">{{ $post->user->name }}</h5>
                         {{ $post->detalle }}
                       </div>
                     </li>
