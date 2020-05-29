@@ -9,7 +9,12 @@
 
 ## Simple Red Social para practicar
 
+## Instrucciones
+composer install
 npm install
+copiar archivo .env.example como .env y completar con los datos necesarios (BD)
+correr migraciones -> php artisan migrate
+
 
 
 ## License
